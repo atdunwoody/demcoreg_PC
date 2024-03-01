@@ -1,5 +1,5 @@
 # demcoreg_PC
-David Shean's demcoreg library adapted to work on windows.
+David Shean's demcoreg library adapted to work on windows. run_dem_align.py is the driver script that allows use of the dem_align.py command line tool within a script.
 
 # Installation
 
