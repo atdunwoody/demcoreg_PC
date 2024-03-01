@@ -14,14 +14,11 @@ from osgeo import gdal, osr
 import numpy as np
 import matplotlib.pyplot as plt
 
-import iolib 
-import coreglib
-import dem_mask
-import geolib
-import warplib
-import malib
-import filtlib
-import pltlib
+from pygeotools.lib import iolib, warplib, malib, filtlib
+from demcoreg import coreglib, dem_mask
+from imview.lib import pltlib
+
+
 
 #Turn off numpy multithreading
 #os.environ['OPENBLAS_NUM_THREADS'] = '1'
