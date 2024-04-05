@@ -10,7 +10,15 @@ from demcoreg import coreglib
 from statslib import DoD_Stats, plot_DoD
   
 def shift_dem(src_dem_fn, outdir, shift):
-
+    """
+    Shifts a Digital Elevation Model (DEM) by a specified amount in the x, y, and z directions using pygeotools library functions.
+    Parameters:
+    - src_dem_fn (str): The file path of the source DEM to be shifted.
+    - outdir (str): The directory where the shifted DEM will be saved as a GeoTIFF file.
+    - shift (tuple): The amount to shift the DEM in the x, y, and z directions.
+    Returns:
+    - src_out_fn (str): The file path for the shifted DEM GeoTIFF.
+    """
     dx = shift[0]
     dy = shift[1]
     dz = shift[2]

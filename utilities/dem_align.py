@@ -14,7 +14,7 @@ from osgeo import gdal, osr
 import numpy as np
 import matplotlib.pyplot as plt
 
-from pygeotools.lib import iolib, warplib, malib, filtlib
+from pygeotools.lib import iolib, warplib, malib, filtlib, geolib
 from demcoreg import coreglib, dem_mask
 from imview.lib import pltlib
 
