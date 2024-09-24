@@ -1,6 +1,11 @@
 # demcoreg_PC
 David Shean's demcoreg library adapted to work on windows. run_dem_align.py is the driver script that allows use of the dem_align.py command line tool within a script.
 
+# Running the script
+1. Open run_dem_align.py
+2. Change the filepath in 'ref_dem_fn' to your reference dem (which will remain stationary)
+3. Change the filepaths in the src_dems list yo your source dem (which will be shifted). You can align multiple source dems by appending their filepaths to the list 
+
 # Installation
 
 ## Open a Command Prompt or PowerShell Window
